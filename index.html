@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+   
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
@@ -17,7 +18,15 @@
                 <p>Seja bem-vindo(a) novamente. Fça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
             </div>
             <form action="login.pph" method="post">
-
+                <div class="campo">
+                    <input type="email" name="login" id="ilogin" placeholder="Digite seu email aqui..."> 
+                    <label for="ilogin">E-mail</label>
+                </div>
+                <div class="campo">
+                    <i class="material-icons">vpn_key</i>
+                    <input type=" password" name="senha" id="isenha" placeholder="Digite aqui a sua senha...">
+                    <label for="isenha">Senha</label>
+                </div>
             </form>
         </section>
     </main>
